@@ -11,9 +11,6 @@ from .models import *
 
 # Create your views here.
 # Viewsets provides implementation for CRUD operations by default.
-
-
-
 class ProjectView(viewsets.ModelViewSet):
     serializer_class = IncidentSerializer
     permission_classes = [IsAuthenticated]
