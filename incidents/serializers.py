@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import *  # Importing all models
+from .models import Incident, User
 from django.contrib.auth.models import User
 from rest_framework.authtoken.views import Token
 
